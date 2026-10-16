@@ -1,0 +1,17 @@
+{
+  "physical_right_click": true,
+  "outside_click_dismisses": true,
+  "four_positions_fit": true,
+  "six_devices_two_rows": true,
+  "stable_refresh_height": true,
+  "unchanged_data_preserves_actors": true,
+  "single_device_shrinks": true,
+  "missing_bridge_empty_state": true,
+  "bridge_creation_and_atomic_update": true,
+  "bridge_one_shot_stale_expiry": true,
+  "bridge_removal": true,
+  "automatic_wallpaper_contrast": true,
+  "disable_enable": true,
+  "no_periodic_bluez_snapshot_22s": true,
+  "no_rebuilds_when_unchanged_22s": true
+}

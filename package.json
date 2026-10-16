@@ -1,0 +1,17 @@
+{
+  "name": "cello-desktop-batteries",
+  "version": "0.1.0-rc.1",
+  "private": true,
+  "description": "An adaptive desktop battery widget for GNOME Shell",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "lint": "eslint extension tests/bluez-events.js",
+    "test:bluez": "dbus-run-session -- gjs -m tests/bluez-events.js",
+    "test:desktop": "python3 tests/smoke-desktop.py",
+    "translations": "node tools/translations.mjs"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.5",
+    "gettext-parser": "^9.1.1"
+  }
+}

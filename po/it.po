@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cello 0.1.0\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Disconnected"
+msgstr "Non connessa"
+
+msgid "Waiting for a reading"
+msgstr "In attesa"
+
+msgid "Reading…"
+msgstr "Misura…"
+
+msgid "Estimated"
+msgstr "Stima"
+
+msgid "Unavailable"
+msgstr "No livello"
+
+msgid "Cello · Batteries"
+msgstr "Cello · Batterie"
+
+msgid "Position"
+msgstr "Posizione"
+
+msgid "Appearance"
+msgstr "Aspetto"
+
+msgid "Top left"
+msgstr "In alto a sinistra"
+
+msgid "Top right"
+msgstr "In alto a destra"
+
+msgid "Bottom left"
+msgstr "In basso a sinistra"
+
+msgid "Bottom right"
+msgstr "In basso a destra"
+
+msgid "Automatic · from wallpaper"
+msgstr "Automatico · dallo sfondo"
+
+msgid "Light"
+msgstr "Chiaro"
+
+msgid "Dark"
+msgstr "Scuro"
+
+msgid "Refresh batteries"
+msgstr "Aggiorna batterie"
+
+msgid "Batteries"
+msgstr "Batterie"
+
+msgid "Cello options"
+msgstr "Opzioni Cello"
+
+msgid "No devices connected"
+msgstr "Nessun dispositivo connesso"
+
+msgid "%d device"
+msgid_plural "%d devices"
+msgstr[0] "%d dispositivo"
+msgstr[1] "%d dispositivi"

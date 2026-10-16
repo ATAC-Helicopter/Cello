@@ -1,0 +1,10 @@
+node_modules/
+dist/
+backups/
+.vscode/
+__pycache__/
+*.pyc
+evidence/*
+!evidence/smoke-results.json
+!evidence/idle-activity.json
+!evidence/bluez-events.json

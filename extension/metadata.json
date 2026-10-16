@@ -1,0 +1,10 @@
+{
+  "uuid": "keychron-batteries-widget@fglabs.local",
+  "name": "Cello — Desktop Batteries",
+  "description": "See Bluetooth device batteries at a glance, right on your desktop. Adaptive charge rings, light and dark appearance, and four corner positions. Uses battery information already available in BlueZ, without scanning or connecting to devices. Optional integration with an existing Keychron battery bridge. GNOME Shell 46.",
+  "shell-version": [
+    "46"
+  ],
+  "url": "https://github.com/ATAC-Helicopter/Cello",
+  "gettext-domain": "cello"
+}

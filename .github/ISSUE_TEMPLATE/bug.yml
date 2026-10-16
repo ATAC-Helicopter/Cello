@@ -1,0 +1,27 @@
+name: Bug report
+description: Report a problem with Cello
+title: "[Bug]: "
+body:
+  - type: input
+    id: shell
+    attributes:
+      label: GNOME Shell version and Linux distribution
+    validations:
+      required: true
+  - type: input
+    id: release
+    attributes:
+      label: Cello version or commit
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction, expected behavior and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Relevant logs or screenshots
+      description: Remove Bluetooth addresses and personal desktop data before attaching.

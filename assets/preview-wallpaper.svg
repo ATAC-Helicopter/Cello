@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+ <defs>
+  <radialGradient id="glow" cx="85%" cy="15%" r="90%"><stop stop-color="#184437"/><stop offset="1" stop-color="#0b1019"/></radialGradient>
+ </defs>
+ <rect width="1280" height="800" fill="url(#glow)"/>
+ <circle cx="1190" cy="90" r="390" fill="none" stroke="#63d9a4" stroke-opacity=".07" stroke-width="65"/>
+ <circle cx="1190" cy="90" r="280" fill="none" stroke="#63d9a4" stroke-opacity=".04" stroke-width="45"/>
+ <text x="80" y="425" font-family="sans-serif" font-size="96" font-weight="700" fill="#f5f7f6" letter-spacing="-4">Cello</text>
+ <text x="84" y="479" font-family="sans-serif" font-size="29" fill="#c2d4ce">Device batteries. At a glance.</text>
+ <rect x="84" y="524" width="42" height="4" rx="2" fill="#30d158"/>
+ <text x="84" y="575" font-family="sans-serif" font-size="17" fill="#8aa79b">An adaptive battery widget for the GNOME desktop.</text>
+ <text x="84" y="614" font-family="sans-serif" font-size="15" fill="#708a81">Bluetooth · Light &amp; dark · Four corner positions</text>
+ <text x="84" y="748" font-family="sans-serif" font-size="12" fill="#708a81">Preview with simulated device data</text>
+</svg>
