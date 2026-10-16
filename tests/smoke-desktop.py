@@ -72,17 +72,33 @@ try:
             time.sleep(0.5)
     else:
         raise RuntimeError('Cello did not load; see evidence/gnome-smoke.log')
-    time.sleep(2)
+    # Shell may load extensions before its startup/overview animation completes.
+    # Wait for the actual desktop to be mapped, including software renderers.
+    for _ in range(60):
+        if evaluate('!Main.layoutManager._startingUp'):
+            evaluate('Main.overview.hide(); "hide overview"')
+            if evaluate('!Main.overview.visible && global.window_group.visible && cello._card.mapped'):
+                break
+        time.sleep(0.25)
+    else:
+        raise RuntimeError('Desktop never became interactive')
+    time.sleep(0.5)
     # Use a virtual input device, exercising picking and the real button event.
     evaluate('import("gi://Clutter").then(({default:C}) => {global.C=C; '
         'global.pointer=C.get_default_backend().get_default_seat()'
         '.create_virtual_device(C.InputDeviceType.POINTER_DEVICE);}); "queued"')
     time.sleep(0.3)
-    evaluate('let [x,y]=cello._card.get_position(); pointer.notify_absolute_motion(0,x+35,y+35); '
-        'pointer.notify_button(0,3,C.ButtonState.PRESSED); '
+    evaluate('let [x,y]=cello._card.get_position(); pointer.notify_absolute_motion(0,x+35,y+35); "moved"')
+    time.sleep(0.2)
+    evaluate('pointer.notify_button(0,3,C.ButtonState.PRESSED); '
         'pointer.notify_button(0,3,C.ButtonState.RELEASED); "clicked"')
     time.sleep(0.4)
-    assert evaluate('cello._menu.isOpen') is True
+    if not evaluate('cello._menu.isOpen'):
+        screenshot(artifacts / 'failed-right-click.png')
+        diagnostic = evaluate('JSON.stringify({overview:Main.overview.visible,'
+            'windows:global.window_group.visible,card:cello._card.mapped,pointer:global.get_pointer(),'
+            'picked:global.stage.get_actor_at_pos(C.PickMode.REACTIVE,...global.get_pointer().slice(0,2))?.toString()})')
+        raise AssertionError(f'Right-click did not open menu: {diagnostic}')
     results['physical_right_click'] = True
     screenshot(artifacts / 'context-menu.png')
     # Click outside to dismiss.
