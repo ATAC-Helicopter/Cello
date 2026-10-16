@@ -1,0 +1,99 @@
+{
+  "release": "v0.1.0-rc.1",
+  "runtime_commit": "4504a30a841b0129645e5dd1c6ef907fd827c9e3",
+  "archive_sha256": "af4cc00e3a4ea881e912a5a3a4c544e05edc1c32feb0301ed8e5a57bc0d61442",
+  "captured_at": "2026-10-16T08:28:46.770853+00:00",
+  "shell": "GNOME Shell 46.0",
+  "viewport": [
+    1280,
+    800
+  ],
+  "instrumentation": [
+    "temporary unsafe-mode for private-bus automation",
+    "temporary bridge path",
+    "live source stopped; simulated devices injected"
+  ],
+  "images": [
+    {
+      "file": "01-overview.png",
+      "caption": "Four connected devices in dark appearance; simulated readings.",
+      "language": "en",
+      "width": 1280,
+      "height": 800,
+      "sha256": "e0682a14a0e7da531a53ce97b5e9157fd8e1cd09c10698f0ccc871bf910d6a24",
+      "readings": "simulated",
+      "capture": "GNOME Shell Screenshot D-Bus API"
+    },
+    {
+      "file": "02-light.png",
+      "caption": "Light appearance on the original project wallpaper; simulated readings.",
+      "language": "en",
+      "width": 1280,
+      "height": 800,
+      "sha256": "a438d2d34792364d607300e9688dc004df5057caf651ca4dafd7e9726bdd6460",
+      "readings": "simulated",
+      "capture": "GNOME Shell Screenshot D-Bus API"
+    },
+    {
+      "file": "03-context-menu.png",
+      "caption": "Context menu opened with a real virtual-pointer right-click; simulated readings.",
+      "language": "en",
+      "width": 1280,
+      "height": 800,
+      "sha256": "90f6b93d6d83d7b4cf831edf1064dfcb778fdeb8eebb7f8f4507bed2737fe415",
+      "readings": "simulated",
+      "capture": "GNOME Shell Screenshot D-Bus API"
+    },
+    {
+      "file": "04-position-menu.png",
+      "caption": "Four desktop corner choices in the native menu; simulated readings.",
+      "language": "en",
+      "width": 1280,
+      "height": 800,
+      "sha256": "ebe269c1a01b0fd8fbd9e2ed6c4d67aa8614dd02242ec712c78cf18d747fd532",
+      "readings": "simulated",
+      "capture": "GNOME Shell Screenshot D-Bus API"
+    },
+    {
+      "file": "05-appearance-menu.png",
+      "caption": "Automatic, light and dark appearance choices; simulated readings.",
+      "language": "en",
+      "width": 1280,
+      "height": 800,
+      "sha256": "d0ea121873e440c6983f1baf7e79fd721a13ea7013a0caa80f7ef4f2efe78268",
+      "readings": "simulated",
+      "capture": "GNOME Shell Screenshot D-Bus API"
+    },
+    {
+      "file": "06-six-devices.png",
+      "caption": "Six devices wrap into two rows; unknown and low charge examples are simulated.",
+      "language": "en",
+      "width": 1280,
+      "height": 800,
+      "sha256": "10e2a729b73149c0aa11f92a33e47afa9c23293737cbf2c5573a983e36d65f84",
+      "readings": "simulated",
+      "capture": "GNOME Shell Screenshot D-Bus API"
+    },
+    {
+      "file": "07-compact.png",
+      "caption": "A single device uses a compact card; simulated reading.",
+      "language": "en",
+      "width": 1280,
+      "height": 800,
+      "sha256": "2b0feb2e826ef261eb899b15dfa3dc465bdbb623f361d9f54d9a50d44ab652d5",
+      "readings": "simulated",
+      "capture": "GNOME Shell Screenshot D-Bus API"
+    },
+    {
+      "file": "08-empty-state.png",
+      "caption": "Empty state without a bridge or connected devices; captured in an isolated session.",
+      "language": "en",
+      "width": 1280,
+      "height": 800,
+      "sha256": "a6c161ce6f3d062074c57ec08393d02665961c617d628aeea09b02d23ffce20b",
+      "readings": "simulated",
+      "capture": "GNOME Shell Screenshot D-Bus API"
+    }
+  ],
+  "repository_runtime_modified": false
+}

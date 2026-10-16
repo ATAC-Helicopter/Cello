@@ -1,0 +1,39 @@
+{
+  "release": "v0.1.0-rc.1",
+  "runtime_commit": "4504a30a841b0129645e5dd1c6ef907fd827c9e3",
+  "archive_sha256": "af4cc00e3a4ea881e912a5a3a4c544e05edc1c32feb0301ed8e5a57bc0d61442",
+  "captured_at": "2026-10-16T08:30:57.047067+00:00",
+  "shell": "GNOME Shell 46.0",
+  "viewport": [
+    1280,
+    800
+  ],
+  "instrumentation": [
+    "temporary unsafe-mode for private-bus automation",
+    "temporary bridge path",
+    "live source stopped; simulated devices injected"
+  ],
+  "images": [
+    {
+      "file": "09-italiano.png",
+      "caption": "Italian translation, dark appearance; simulated readings.",
+      "language": "it",
+      "width": 1280,
+      "height": 800,
+      "sha256": "c3d6c8ed669433144c6829b8a9ae44d8f1f9f45a342f7faf6ab40d05850ce3a5",
+      "readings": "simulated",
+      "capture": "GNOME Shell Screenshot D-Bus API"
+    },
+    {
+      "file": "10-menu-italiano.png",
+      "caption": "Native context menu in Italian; simulated readings.",
+      "language": "it",
+      "width": 1280,
+      "height": 800,
+      "sha256": "6c90ea80f0536a3f90ff172824c1da17c211b28013d1cc729feabdd1e87b56f2",
+      "readings": "simulated",
+      "capture": "GNOME Shell Screenshot D-Bus API"
+    }
+  ],
+  "repository_runtime_modified": false
+}

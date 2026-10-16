@@ -31,7 +31,7 @@ Fonti: [linee guida ufficiali e licenza](https://gjs.guide/extensions/review-gui
 
 **Immagine principale:** `docs/media/cello-preview.png`. È uno screenshot della vera estensione in GNOME Shell, con quattro dispositivi simulati e uno sfondo SVG originale (`assets/preview-wallpaper.svg`). La dicitura “Preview with simulated device data” deve rimanere visibile. Non presentarlo come una misura hardware.
 
-**Immagini secondarie:** disposizione compatta, aspetto chiaro/scuro, menu delle posizioni. Rigenerare su sfondo originale prima della pubblicazione, evitando wallpaper di terzi non autorizzati e nomi personali dei dispositivi.
+**Immagini secondarie:** la [galleria della release](media/releases/v0.1.0-rc.1/README.md) contiene dieci screenshot reali su sfondo originale, con dati simulati dichiarati: chiaro/scuro, menu, sei dispositivi, vista compatta, stato vuoto e italiano. La [scheda pronta da copiare](release/GNOME_EXTENSIONS_LISTING.md) e il [press kit](release/PRESS_KIT.md) completano il materiale.
 
 **Messaggio di lancio proposto:**
 

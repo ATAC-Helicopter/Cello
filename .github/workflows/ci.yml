@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
@@ -17,6 +19,8 @@ jobs:
       - run: sudo apt-get update && sudo apt-get install -y gnome-shell gjs dbus-x11
       - run: npm ci
       - run: npm run lint
+      - run: python3 tools/check-release-docs.py
+      - run: python3 tools/build-release-kit.py
       - run: bash -n install.sh uninstall.sh set-position.sh tools/package.sh
       - run: npm run translations
       - run: npm run test:bluez
@@ -32,6 +36,8 @@ jobs:
       LIBGL_ALWAYS_SOFTWARE: '1'
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
