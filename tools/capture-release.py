@@ -13,6 +13,7 @@ import sys
 import tempfile
 import time
 import zipfile
+from private_session import run_private_session
 
 ROOT = Path(__file__).resolve().parents[1]
 UUID = 'keychron-batteries-widget@fglabs.local'
@@ -111,8 +112,8 @@ if not args.inside:
         env = dict(os.environ, GSETTINGS_BACKEND='keyfile', XDG_DATA_HOME=f'{temporary}/data',
             XDG_CONFIG_HOME=f'{temporary}/config', CELLO_CAPTURE_DIRECTORY=temporary,
             LANGUAGE=args.language, LC_ALL='it_IT.UTF-8' if args.language == 'it' else 'C.UTF-8')
-        subprocess.run(['dbus-run-session', '--', sys.executable, __file__, '--inside',
-            '--bundle', str(args.bundle.resolve()), '--language', args.language], env=env, check=True)
+        run_private_session(['dbus-run-session', '--', sys.executable, __file__, '--inside',
+            '--bundle', str(args.bundle.resolve()), '--language', args.language], env)
     sys.exit(0)
 
 folder = Path(os.environ['CELLO_CAPTURE_DIRECTORY'])

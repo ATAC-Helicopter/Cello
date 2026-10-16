@@ -17,4 +17,4 @@ GNOME Extensions submission and real installed-session/multi-monitor/HiDPI quali
 
 ### Release documentation and media supplement
 
-A documentation-only supplement adds English/Italian user guides, screenshots captured from the released runtime, a GNOME listing draft, release notes and a downloadable media/documentation kit. It does not change the extension archive or move the release tag.
+A documentation-only supplement adds English/Italian user guides, screenshots captured from the released runtime, a GNOME listing draft, release notes and a downloadable media/documentation kit. It also ensures private-bus helper processes exit before temporary capture/test folders are removed. It does not change the extension archive or move the release tag.

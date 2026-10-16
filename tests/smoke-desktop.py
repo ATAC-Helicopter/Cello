@@ -14,6 +14,8 @@ import time
 
 ROOT = Path(__file__).resolve().parents[1]
 UUID = 'keychron-batteries-widget@fglabs.local'
+sys.path.insert(0, str(ROOT / 'tools'))
+from private_session import run_private_session
 
 
 def command(*args):
@@ -40,8 +42,7 @@ if '--inside' not in sys.argv:
         env = dict(os.environ, GSETTINGS_BACKEND='keyfile',
             XDG_DATA_HOME=f'{temporary}/data', XDG_CONFIG_HOME=f'{temporary}/config',
             CELLO_SMOKE_DIRECTORY=temporary, LANGUAGE='en', LC_ALL='C.UTF-8')
-        subprocess.run(['dbus-run-session', '--', sys.executable, __file__, '--inside'],
-            env=env, check=True)
+        run_private_session(['dbus-run-session', '--', sys.executable, __file__, '--inside'], env)
     sys.exit(0)
 
 folder = Path(os.environ['CELLO_SMOKE_DIRECTORY'])
