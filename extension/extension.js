@@ -238,7 +238,7 @@ export default class Cello extends Extension {
         this._connect(this._interfaceSettings, 'changed::color-scheme', () => this._loadWallpaper());
         this._configMonitor = Gio.File.new_for_path(GLib.path_get_dirname(CONFIG))
             .monitor_directory(Gio.FileMonitorFlags.NONE, null);
-        this._configMonitor.connect('changed', (_monitor, file) => {
+        this._connect(this._configMonitor, 'changed', (_monitor, file) => {
             if (file.get_path() === CONFIG) {
                 this._config = this._loadConfig();
                 this._render();
@@ -247,7 +247,7 @@ export default class Cello extends Extension {
         // Watching a missing file is supported; no runtime directory needs to
         // be created and no bridge/service is installed or started by Cello.
         this._stateMonitor = Gio.File.new_for_path(STATE).monitor_file(Gio.FileMonitorFlags.NONE, null);
-        this._stateMonitor.connect('changed', () => this._queueStateRead());
+        this._connect(this._stateMonitor, 'changed', () => this._queueStateRead());
         this._source = new BatterySource(objects => {
             this._objects = objects;
             this._syncDevices();
