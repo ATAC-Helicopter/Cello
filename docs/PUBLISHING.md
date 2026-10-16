@@ -1,6 +1,6 @@
 # Distribuire e presentare Cello
 
-Repository: https://github.com/ATAC-Helicopter/Cello. Licenza: GPL-3.0-or-later. Invio a GNOME Extensions ancora da effettuare con un account autenticato.
+Repository: https://github.com/ATAC-Helicopter/Cello. Licenza: GPL-3.0-or-later. [Scheda GNOME Extensions #11286](https://extensions.gnome.org/extension/11286/cello-desktop-batteries/) inviata il 16 ottobre 2026: versione portale 1, GNOME Shell 46, stato **Unreviewed** nello screenshot fornito dal manutentore. Screenshot caricato; approvazione ancora in attesa. Il collegamento restituisce attualmente HTTP 404 senza autenticazione.
 
 ## Percorso di pubblicazione
 

@@ -1,6 +1,6 @@
 # Guida a Cello
 
-Cello 0.1.0-rc.1 è un’anteprima pubblica per GNOME Shell 46. La pubblicazione su GNOME Extensions è ancora in attesa di invio. La lingua segue quella del desktop: sono disponibili inglese e italiano.
+Cello 0.1.0-rc.1 è un’anteprima pubblica per GNOME Shell 46. La [scheda GNOME Extensions #11286](https://extensions.gnome.org/extension/11286/cello-desktop-batteries/) è in attesa di revisione; l’installazione dallo store non è ancora disponibile. La lingua segue quella del desktop: sono disponibili inglese e italiano.
 
 ## Installazione e aggiornamento
 

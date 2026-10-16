@@ -29,7 +29,7 @@ Ho pubblicato una prima anteprima di Cello: un widget per vedere sul desktop GNO
 
 Si adatta ai colori dello sfondo, offre aspetto chiaro/scuro e si posiziona nei quattro angoli. Usa i dati già disponibili in BlueZ, senza scansioni, connessioni forzate o polling ricorrente. Il bridge Keychron è opzionale.
 
-La versione attuale è per GNOME Shell 46, in inglese e italiano. Gli screenshot usano letture simulate. Autonomia reale, più monitor e HiDPI restano da qualificare; l’invio a GNOME Extensions è ancora da completare.
+La versione attuale è per GNOME Shell 46, in inglese e italiano. Gli screenshot usano letture simulate. Autonomia reale, più monitor e HiDPI restano da qualificare; la [scheda GNOME Extensions #11286](https://extensions.gnome.org/extension/11286/cello-desktop-batteries/) è stata inviata ed è in attesa di revisione.
 
 Sorgenti e download: https://github.com/ATAC-Helicopter/Cello
 

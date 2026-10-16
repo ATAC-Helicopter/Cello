@@ -19,4 +19,4 @@ This is a maintainer checklist, not GNOME approval.
 
 ## Remaining external steps
 
-GNOME Extensions requires an authenticated account and a review of the uploaded ZIP. A GitHub release is not an extension-store approval. Do not add an installation badge until the real listing exists.
+[Submission #11286](https://extensions.gnome.org/extension/11286/cello-desktop-batteries/) was uploaded by the maintainer on 2026-10-16. The portal screenshot records version 1 for GNOME Shell 46 as **Unreviewed**, with a screenshot attached. Anonymous access currently returns HTTP 404. Approval remains pending. GNOME Extensions requires a review of the uploaded ZIP. A GitHub release is not an extension-store approval. Do not add an installation badge until the real listing exists.

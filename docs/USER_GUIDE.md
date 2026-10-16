@@ -1,6 +1,6 @@
 # Cello user guide
 
-Cello 0.1.0-rc.1 is a public preview for GNOME Shell 46. The GNOME Extensions listing is pending. English and Italian are selected through your desktop language.
+Cello 0.1.0-rc.1 is a public preview for GNOME Shell 46. [GNOME Extensions submission #11286](https://extensions.gnome.org/extension/11286/cello-desktop-batteries/) is awaiting review; store installation is not yet available. English and Italian are selected through your desktop language.
 
 ## Install or update
 
