@@ -8,7 +8,9 @@
     "lint": "eslint extension tests/bluez-events.js",
     "test:bluez": "dbus-run-session -- gjs -m tests/bluez-events.js",
     "test:desktop": "python3 tests/smoke-desktop.py",
-    "translations": "node tools/translations.mjs"
+    "translations": "node tools/translations.mjs",
+    "check:release-docs": "python3 tools/check-release-docs.py",
+    "package:release-kit": "python3 tools/build-release-kit.py"
   },
   "devDependencies": {
     "eslint": "^9.39.5",
