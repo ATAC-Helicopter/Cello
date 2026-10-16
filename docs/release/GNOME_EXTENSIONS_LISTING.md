@@ -1,6 +1,6 @@
 # GNOME Extensions submission material
 
-Status: ready for maintainer submission; not submitted or approved.
+Status: submitted on 2026-10-16; portal version 1 for GNOME Shell 46 is **Unreviewed**, as shown in the maintainer-provided portal screenshot. [Submission #11286](https://extensions.gnome.org/extension/11286/cello-desktop-batteries/). Not approved; the anonymous URL currently returns HTTP 404. The screenshot has been uploaded. The description should retain the complete product explanation below, including the simulated-readings disclosure.
 
 | Field | Value |
 | --- | --- |

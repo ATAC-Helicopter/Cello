@@ -36,7 +36,7 @@ The release has lint, Bluetooth event tests on a private D-Bus service, determin
 
 In a **22-second local idle observation**, the widget made **zero additional full BlueZ cache requests and zero widget rebuilds**. That is an activity count. It does not establish watts, CPU/RAM overhead or hours of device autonomy. The external bridge and BlueZ have their own behavior and costs.
 
-The remaining qualification includes the installed primary Wayland session, real multi-monitor and HiDPI setups. Other GNOME Shell versions are not declared supported. This is a public preview, and **submission to GNOME Extensions is still pending**—a GitHub release is not a store approval.
+The remaining qualification includes the installed primary Wayland session, real multi-monitor and HiDPI setups. Other GNOME Shell versions are not declared supported. This is a public preview, and **[GNOME Extensions submission #11286](https://extensions.gnome.org/extension/11286/cello-desktop-batteries/) is awaiting review**—a GitHub release is not a store approval.
 
 ## Try the preview
 

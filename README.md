@@ -6,7 +6,7 @@ Cello is a small, wallpaper-aware battery widget for the GNOME desktop. It shows
 
 ![Cello running in GNOME Shell with explicitly simulated device readings](docs/media/cello-preview.png)
 
-**Initial preview: GNOME Shell 46 only.** English and Italian are included. The GNOME Extensions submission is pending; this repository does not imply approval by GNOME.
+**Initial preview: GNOME Shell 46 only.** English and Italian are included. [GNOME Extensions submission #11286](https://extensions.gnome.org/extension/11286/cello-desktop-batteries/) is awaiting review (portal version 1); this repository does not imply approval by GNOME.
 
 [User guide](docs/USER_GUIDE.md) · [Guida italiana](docs/GUIDA_UTENTE.md) · [Screenshot gallery](docs/media/releases/v0.1.0-rc.1/README.md) · [Release notes](docs/release/v0.1.0-rc.1.md)
 
